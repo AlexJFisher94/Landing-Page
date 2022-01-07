@@ -1,0 +1,101 @@
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+.containerOne {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    background: hsl(189, 52%, 22%);
+    color: white;
+    gap: 5rem;
+    max-width: 1440px;
+    padding: 1rem 14rem 7rem;
+}
+
+
+.header {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    padding: 12px 0;
+    font-weight: lighter;
+}
+
+.logo {
+    font-size: 22px;
+    color: #f9faf8;
+}
+
+.headerNav li:hover {
+    cursor: pointer;
+    color: hsl(189, 61%, 39%);
+}
+
+.headerNav {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.heroLeft h2 {
+    font-size: 48px;
+    color: #f9faf8;
+    margin: 0;
+    font-weight: 900;
+}
+
+.heroLeft p {
+    font-size: 16px;
+    color: #e5e7eb;
+    font-weight: lighter;
+}
+
+.heroLeft {
+    flex: 1 1 0;
+    margin: 0;
+}
+
+.btn {
+    color: #f5f7fa;
+    background-color: hsl(189, 61%, 39%);
+    border-radius: 7px;
+    font-size: 16px;
+    border: none;
+    width: 100px;
+    height: 30px;
+}
+
+.btn:hover {
+    cursor: pointer;
+    color:hsl(189, 61%, 39%);
+    background-color: white;
+}
+
+.heroRight {
+    display: flex;
+    flex: 1 1 0;
+    justify-content: center;
+    background: hsl(189, 52%, 22%);
+}
+
+.heroRight img {
+    flex: 1;
+    object-fit: cover;
+    border-radius: 7px;
+    max-height: 225px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
