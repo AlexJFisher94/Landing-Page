@@ -7,6 +7,8 @@ body {
     margin: 0;
 }
 
+/* Section one */
+
 .containerOne {
     display: flex;
     flex: 1;
@@ -17,7 +19,6 @@ body {
     max-width: 1440px;
     padding: 1rem 14rem 7rem;
 }
-
 
 .header {
     display: flex;
@@ -32,17 +33,29 @@ body {
     color: #f9faf8;
 }
 
-.headerNav li:hover {
-    cursor: pointer;
-    color: hsl(189, 61%, 39%);
-}
-
 .headerNav {
     display: flex;
     gap: 2rem;
     list-style: none;
     margin: 0;
     padding: 0;
+}
+
+.headerNav li:hover {
+    cursor: pointer;
+    color: hsl(189, 61%, 39%);
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+.heroLeft {
+    flex: 1 1 0;
+    margin: 0;
 }
 
 .heroLeft h2 {
@@ -56,11 +69,6 @@ body {
     font-size: 16px;
     color: #e5e7eb;
     font-weight: lighter;
-}
-
-.heroLeft {
-    flex: 1 1 0;
-    margin: 0;
 }
 
 .btn {
@@ -93,9 +101,46 @@ body {
     max-height: 225px;
 }
 
-.hero {
+/* Section two */
+
+.containerTwo {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 2rem;
+    flex-direction: column;
+    justify-content: center;
+    padding: 4rem 4rem;
 }
+
+h3 {
+    color: hsl(189, 52%, 22%);
+    font-size: 32px;
+    text-align: center;
+}
+
+.infoContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    max-width: 175px;
+    list-style: none;
+    gap: 12px;
+    text-align: center;
+}
+
+.infoBox {
+    width: 175px;
+    height: 175px;
+    border: 4px solid hsl(189, 52%, 22%);
+    border-radius: 7px;
+}
+
+.info li {
+    color: hsla(180, 100%, 1%, 0.616);
+    font-size: 14px;
+}
+
+/* Section three */
