@@ -91,7 +91,7 @@ body {
     display: flex;
     flex: 1 1 0;
     justify-content: center;
-    background: hsl(189, 52%, 22%);
+    background-color: hsl(189, 52%, 22%);
 }
 
 .heroRight img {
@@ -148,15 +148,17 @@ h3 {
 
 .containerThree {
     display: flex;
+    flex: 1;
     flex-direction: column;
     justify-self: center;
     align-items: center;
-    background: hsl(189, 52%, 22%);
+    background-color: hsl(189, 52%, 22%);
+    padding: 25px 224px;
 }
 
 .quote {
     max-width: 900px;
-    padding: 64px 0;
+    padding: 50px 0;
 }
 
 .quote h3 {
@@ -168,4 +170,61 @@ h3 {
     color: #f9faf8;
     text-align: end;
     font-size: 20px;
+}
+
+/* Section four */
+
+.containerFour {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 14rem 4rem;
+}
+
+.signUpBox {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    background-color:hsl(189, 61%, 39%);
+    max-width: 1440px;
+    min-height: 125px;
+    border-radius: 6px;
+    padding: 15px 100px;
+    gap: 50px;
+}
+
+.signUpBox h4 {
+    color: white;
+    font-size: 24px;
+    margin: 5px 0;
+}
+
+.signUpBox p {
+    color: #f9faf8;
+    font-size: 14px;
+    font-weight: lighter;
+    margin: 0;
+    min-width: auto;
+}
+
+.signUpText {
+    
+}
+
+.btn2 {
+    color: #f5f7fa;
+    background-color: hsl(189, 61%, 39%);
+    border-radius: 7px;
+    font-size: 16px;
+    border: 2px solid #f5f7fa;
+    min-width: 100px;
+    height: 30px;
+}
+
+.btn2:hover {
+    cursor: pointer;
+    color: hsl(189, 61%, 39%);
+    background-color: white;
 }
