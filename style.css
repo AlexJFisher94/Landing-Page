@@ -7,16 +7,22 @@ body {
     margin: 0;
 }
 
+
+/* Shared between sections 1-4 */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 1440px;
+}
+
 /* Section one */
 
-.containerOne {
-    display: flex;
+#containerOne {
     flex: 1;
-    flex-direction: column;
     background: hsl(189, 52%, 22%);
     color: white;
     gap: 5rem;
-    max-width: 1440px;
     padding: 1rem 14rem 7rem;
 }
 
@@ -103,9 +109,7 @@ body {
 
 /* Section two */
 
-.containerTwo {
-    display: flex;
-    flex-direction: column;
+#containerTwo {
     justify-content: center;
     padding: 4rem 4rem;
 }
@@ -146,10 +150,7 @@ h3 {
 
 /* Section three */
 
-.containerThree {
-    display: flex;
-    flex: 1;
-    flex-direction: column;
+#containerThree {
     justify-self: center;
     align-items: center;
     background-color: hsl(189, 52%, 22%);
@@ -174,8 +175,7 @@ h3 {
 
 /* Section four */
 
-.containerFour {
-    display: flex;
+#containerFour {
     flex: 1;
     justify-content: center;
     align-items: center;
@@ -188,29 +188,24 @@ h3 {
     align-items: center;
     justify-content: center;
     background-color:hsl(189, 61%, 39%);
-    max-width: 1440px;
     min-height: 125px;
     border-radius: 6px;
-    padding: 8px 100px;
+    padding: 8px 175px;
     gap: 50px;
 }
 
-.signUpBox h4 {
+.signUpText h4 {
     color: white;
     font-size: 24px;
     margin: 5px 0;
 }
 
-.signUpBox p {
+.signUpText p {
     color: #f9faf8;
     font-size: 14px;
     font-weight: lighter;
     margin: 0;
     min-width: auto;
-}
-
-.signUpText {
-    
 }
 
 .btn2 {
